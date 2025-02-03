@@ -63,15 +63,11 @@ body {
     margin-bottom: 30px;
 
     color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .flexcontainer5 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
     width: 100%;
     height: 310px;
     border: 3px solid white;
@@ -80,18 +76,32 @@ body {
     margin-top: 30px;
 }
 
+.flexcontainer6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+    /* border: 3px solid white; */
+    
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
 .imgs {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     justify-content: space-evenly;
-    width: 550px;
+    width: 350px;
     height: 50px;
-    border: 3px solid white;
-
-
-    margin-block: 10cap;
+    /* border: 3px solid white; */
+    
+    margin-top: 20px;
+    margin-bottom: -30px;
 }
 
 .metext {
@@ -140,24 +150,57 @@ body {
 .skillpart, .biopart {
     width: 500px;
     height: 340px;
-    border: 3px solid white;
+    /* border: 3px solid white; */
     justify-content: center;
 
-    text-align: justify;
-    font-size: 20px;
+    text-align: center;
+    font-size: 17px;
     
 }
 
 #headsection{
     text-align: center;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 #footnote {
-    font-weight: 700;
+    font-weight: 550;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
 
+.contacts {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    display: flex;
+    justify-self: flex-start;
+
+    width: 500px;
+    margin-left: 10px;
+}
+
+.address {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    display: flex;
+    justify-self: flex-end;
+
+    width: 500px;
+    margin-left: 10px;
+}
+
+#contacttext, #addtext{
+    text-align: justify;
+    font-size: 15px;
+    color:darkgray;
+}
